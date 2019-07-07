@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Brackets</class>
+ <widget class="QMainWindow" name="Brackets">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>384</width>
+    <height>366</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Brackets</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextBrowser" name="textBrowser"/>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>Open File</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>Check For Errors</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/open.svg</normaloff>:/img/open.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
